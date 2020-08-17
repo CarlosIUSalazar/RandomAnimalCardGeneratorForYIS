@@ -1,56 +1,48 @@
 function display_random_image() 
 {
      var theImages = [{
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/1Bored.png",
+        src: "./img/1Octopus.png",
         //width: "240",
         //height: "160"
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/2Joyful.png",
+        src: "./img/2Squirrel.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/3Worried.png",
+        src: "./img/3Pig.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/4Peaceful.png",
+        src: "./img/4Monkey.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/5Fearful.png",
+        src: "./img/5Elephant.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/6Mad.png",
+        src: "./img/6Cat.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/7Proud.png",
+        src: "./img/7Penguin.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/8Polite.png",
+        src: "./img/8Crab.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/9Boastful.png",
+        src: "./img/9Snake.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/10Enthusiastic.png",
+        src: "./img/10Horse.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/11Tired.png",
+        src: "./img/11Lion.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/12Nervous.png",
+        src: "./img/12Lion2.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/13Confused.png",
+        src: "./img/13Giraffe.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/14Excited.png",
+        src: "./img/14Hippo.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/15Humorous.png",
+        src: "./img/15Alligator.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/16Surprised.png",
+        src: "./img/16Bear.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/17Disgusted.png",
+        src: "./img/17Elephant.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/18Silly.png",
+        src: "./img/18Monkey.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/19Anxious.png",
+        src: "./img/19Snake.png",
     }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/20Sad.png",
-    }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/21Rude.png",
-    }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/22Mysterious.png",
-    }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/23Angry.png",
-    }, {
-        src: "https://icarlospro.com/wp-content/RandomCommotionCards/img/24Annoyed.png",
-    }, 
+        src: "./img/20Tiger.png",
+    } 
 ];
     
     var preBuffer = [];

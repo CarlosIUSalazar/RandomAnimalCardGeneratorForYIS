@@ -13,19 +13,25 @@
         <script src="script.js" async defer></script>
     </head>
     <body>
+        <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@0.2.3/dist/bubbly-bg.js"></script>
+        <script>bubbly({
+          colorStart: '#FFF456',
+          colorStop: '#00ffff',
+          bubbleFunc:() => `hsla(${Math.random() * 360}, 100%, 50%, ${Math.random() * 0.25})`
+        });</script>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <h1>Random Animal Card Generator</h1>
+        <center>
+        <h1>Animal Cards</h1>
 
         <FORM NAME="WordForm">  
         <!-- <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR> -->
         
-        <INPUT TYPE=BUTTON VALUE="Generate" onClick="display_random_image();" id="button">
-        <div class="target"></div>
+        <INPUT TYPE=BUTTON VALUE="Pick a Card" onClick="display_random_image();" id="button">
+        <div class="target" width="500" height="500"></div>
         </FORM>
-        
+    </center>
         <script src="" async defer></script>
     </body>
 </html>
